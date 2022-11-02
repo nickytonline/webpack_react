@@ -23,11 +23,15 @@
     "@storybook/react": "^6.5.13",
     "@storybook/test-runner": "^0.9.0",
     "@storybook/testing-library": "^0.0.13",
-    "babel-loader": "^8.2.5"
+    "babel-loader": "^8.2.5",
+    "chromatic": "^6.11.4"
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "test-storybook": "test-storybook"
-  }
+    "test-storybook": "test-storybook",
+    "chromatic": "npx chromatic --project-token=08c290730dcf"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "webpack_react@1.0.0"
 }
